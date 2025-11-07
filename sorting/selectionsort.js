@@ -1,13 +1,13 @@
-let arr = [5, 3, 8, 4, 2]
+// let arr = [5, 3, 8, 4, 2]
 
-const n = arr.length
-for(let i = 0; i < n - 1; i++) {
-    let minIndex = i
-    for(let j = i + 1; j < n; j++) {
-        if (arr[j] < arr[minIndex]) {
-            minIndex = j
-        }
-    }
-    [arr[i], arr[minIndex]] = [arr[minIndex],arr[i]]
-}
-console.log(arr)
+// const n = arr.length
+// for(let i = 0; i < n - 1; i++) {
+//     let minIndex = i
+//     for(let j = i + 1; j < n; j++) {
+//         if (arr[j] < arr[minIndex]) {
+//             minIndex = j
+//         }
+//     }
+//     [arr[i], arr[minIndex]] = [arr[minIndex],arr[i]]
+// }
+// console.log(arr)
