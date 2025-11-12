@@ -1,9 +1,20 @@
-let arr = [1, 2, 3, 2, 1];
+// let arr = [1, 2, 3, 2, 1];
 
-let reversed = [...arr].reverse(); // copy + reverse
+// let reversed = [...arr].reverse(); // copy + reverse
 
-if (arr.join('') === reversed.join('')) {
-  console.log("✅ Palindrome");
+// if (arr.join('') === reversed.join('')) {
+//   console.log(" Palindrome");
+// } else {
+//   console.log(" Not a palindrome");
+// }
+
+
+let arr = [1,2,3,2,1]
+
+let reversed = [...arr].reverse()
+
+if(arr.join('') === reversed.join('')) {
+  console.log("palindrome")
 } else {
-  console.log("❌ Not a palindrome");
+  console.log("not palindrome")
 }
